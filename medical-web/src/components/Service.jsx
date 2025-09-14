@@ -34,161 +34,29 @@ const Services = () => {
                         Our Services
                     </h1>
                     <p className=" mt-2 text-center lg:text-start">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus,
-                        quidem.
+                        Comprehensive healthcare services — from online consultations to lab tests, medicines, and specialist care — all at your fingertips.
                     </p>
                 </div>
                 <div className=" mt-4 lg:mt-0">
                     <Button title="See Services" />
                 </div>
             </div>
-            <div className=" flex flex-col lg:flex-row gap-5 pt-14">
-                <ServicesCard icon={icon1} title="Lab Test" />
-                <div className=" group flex flex-col items-center text-center gap-2 w-full lg:w-1/3 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out">
-                    <div className=" bg-[#d5f2ec] p-3 rounded-full transition-colors duration-300 ease-in-out group-hover:bg-[#ade9dc]">
-                        {icon2}
-                    </div>
-                    <h1 className=" font-semibold text-lg">Health Check</h1>
-                    <p>
-                        Stay ahead with regular health check-ups tailored to your needs.
-                    </p>
-
-                    <h3 className=" text-backgroundColor cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out">
-                        Learn more
-                    </h3>
-                </div>
-                <ServicesCard icon={icon3} title="Heart Health" />
-                <div className=" group flex flex-col items-center text-center gap-2 w-full lg:w-1/3 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out">
-                    <div className=" bg-[#d5f2ec] p-3 rounded-full transition-colors duration-300 ease-in-out group-hover:bg-[#ade9dc]">
-                        {icon4}
-                    </div>
-                    <h1 className=" font-semibold text-lg">Blood Test</h1>
-                    <p>
-                        Get blood tests done at home with quick, reliable results.
-                    </p>
-
-                    <h3 className=" text-backgroundColor cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out">
-                        Learn more
-                    </h3>
-                </div>
-                <div className=" group flex flex-col items-center text-center gap-2 w-full lg:w-1/3 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out">
-                    <div className=" bg-[#d5f2ec] p-3 rounded-full transition-colors duration-300 ease-in-out group-hover:bg-[#ade9dc]">
-                        {icon5}
-                    </div>
-                    <h1 className=" font-semibold text-lg">Eye Test</h1>
-                    <p>
-                        Keep your vision clear with expert eye tests at your convenience.
-                    </p>
-
-                    <h3 className=" text-backgroundColor cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out">
-                        Learn more
-                    </h3>
-                </div>
-                <div className=" group flex flex-col items-center text-center gap-2 w-full lg:w-1/3 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out">
-                    <div className=" bg-[#d5f2ec] p-3 rounded-full transition-colors duration-300 ease-in-out group-hover:bg-[#ade9dc]">
-                        {icon6}
-                    </div>
-                    <h1 className=" font-semibold text-lg">Dental CheckUp</h1>
-                    <p>
-                        Maintain a healthy smile with easy and expert dental checkups.
-                    </p>
-
-                    <h3 className=" text-backgroundColor cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out">
-                        Learn more
-                    </h3>
-                </div>
-                <div className=" group flex flex-col items-center text-center gap-2 w-full lg:w-1/3 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out">
-                    <div className=" bg-[#d5f2ec] p-3 rounded-full transition-colors duration-300 ease-in-out group-hover:bg-[#ade9dc]">
-                        {icon7}
-                    </div>
-                    <h1 className=" font-semibold text-lg">Medicines</h1>
-                    <p>
-                        Order medicines online and get them delivered to your doorstep quickly.
-                    </p>
-
-                    <h3 className=" text-backgroundColor cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out">
-                        Learn more
-                    </h3>
-                </div>
-                <div className=" group flex flex-col items-center text-center gap-2 w-full lg:w-1/3 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out">
-                    <div className=" bg-[#d5f2ec] p-3 rounded-full transition-colors duration-300 ease-in-out group-hover:bg-[#ade9dc]">
-                        {icon8}
-                    </div>
-                    <h1 className=" font-semibold text-lg">Vaccine</h1>
-                    <p>
-                        Stay protected with safe and timely vaccinations at your convenience.
-                    </p>
-
-                    <h3 className=" text-backgroundColor cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out">
-                        Learn more
-                    </h3>
-                </div>
-                <div className=" group flex flex-col items-center text-center gap-2 w-full lg:w-1/3 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out">
-                    <div className=" bg-[#d5f2ec] p-3 rounded-full transition-colors duration-300 ease-in-out group-hover:bg-[#ade9dc]">
-                        {icon9}
-                    </div>
-                    <h1 className=" font-semibold text-lg">Joint Pain</h1>
-                    <p>
-                        Get expert care and relief solutions for joint pain from the comfort of home.
-                    </p>
-
-                    <h3 className=" text-backgroundColor cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out">
-                        Learn more
-                    </h3>
-                </div>
-                <div className=" group flex flex-col items-center text-center gap-2 w-full lg:w-1/3 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out">
-                    <div className=" bg-[#d5f2ec] p-3 rounded-full transition-colors duration-300 ease-in-out group-hover:bg-[#ade9dc]">
-                        {icon10}
-                    </div>
-                    <h1 className=" font-semibold text-lg">Emergency</h1>
-                    <p>
-                        Immediate medical support when you need it most, available 24/7.
-                    </p>
-
-                    <h3 className=" text-backgroundColor cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out">
-                        Learn more
-                    </h3>
-                </div>
-                <div className=" group flex flex-col items-center text-center gap-2 w-full lg:w-1/3 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out">
-                    <div className=" bg-[#d5f2ec] p-3 rounded-full transition-colors duration-300 ease-in-out group-hover:bg-[#ade9dc]">
-                        {icon11}
-                    </div>
-                    <h1 className=" font-semibold text-lg">Mental Health</h1>
-                    <p>
-                        Confidential and compassionate mental health support, anytime you need it.
-                    </p>
-
-                    <h3 className=" text-backgroundColor cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out">
-                        Learn more
-                    </h3>
-                </div>
-                <div className=" group flex flex-col items-center text-center gap-2 w-full lg:w-1/3 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out">
-                    <div className=" bg-[#d5f2ec] p-3 rounded-full transition-colors duration-300 ease-in-out group-hover:bg-[#ade9dc]">
-                        {icon12}
-                    </div>
-                    <h1 className=" font-semibold text-lg">Asthma</h1>
-                    <p>
-                        Breathe easier with expert asthma care and ongoing support at home.
-                    </p>
-
-                    <h3 className=" text-backgroundColor cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out">
-                        Learn more
-                    </h3>
-                </div>
-                <div className=" group flex flex-col items-center text-center gap-2 w-full lg:w-1/3 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out">
-                    <div className=" bg-[#d5f2ec] p-3 rounded-full transition-colors duration-300 ease-in-out group-hover:bg-[#ade9dc]">
-                        {icon13}
-                    </div>
-                    <h1 className=" font-semibold text-lg">Pregnancy</h1>
-                    <p>
-                        Safe and supportive pregnancy care with expert guidance at every stage.
-                    </p>
-
-                    <h3 className=" text-backgroundColor cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out">
-                        Learn more
-                    </h3>
-                </div>
-                
+            <div className=" my-8">
+        <div className=" flex flex-wrap justify-center gap-5">
+                <ServicesCard icon={icon1} title="Lab Test" discription="Book lab tests from home with fast reports and trusted accuracy." />
+                <ServicesCard icon={icon2} title="Health Check" discription="Stay ahead with regular health check-ups tailored to your needs." />
+                <ServicesCard icon={icon3} title="Heart Health" discription="Protect your heart with expert care, regular check-ups, and timely guidance." />
+                <ServicesCard icon={icon4} title="Blood Test" discription="Get blood tests done at home with quick, reliable results." />
+                <ServicesCard icon={icon5} title="Eye Test" discription="Keep your vision clear with expert eye tests at your convenience." />
+                <ServicesCard icon={icon6} title="Dental CheckUp" discription="Maintain a healthy smile with easy and expert dental checkups." />
+                <ServicesCard icon={icon7} title="Medicines" discription="Order medicines online and get them delivered to your doorstep quickly." />
+                <ServicesCard icon={icon8} title="Vaccine" discription="Stay protected with safe and timely vaccinations at your convenience." />
+                <ServicesCard icon={icon9} title="Joint Pain" discription="Get expert care and relief solutions for joint pain from the comfort of home." />
+                <ServicesCard icon={icon10} title="Emergency" discription="Immediate medical support when you need it most, available 24/7." />
+                <ServicesCard icon={icon11} title="Mental Health" discription="Confidential and compassionate mental health support, anytime you need it." />
+                <ServicesCard icon={icon12} title="Asthma" discription="Breathe easier with expert asthma care and ongoing support at home." />
+                <ServicesCard icon={icon13} title="Pregnancy" discription="Safe and supportive pregnancy care with expert guidance at every stage." />              
+            </div>
             </div>
         </div>
     );
